@@ -47,10 +47,10 @@
 
 .sidebar {
   background-color: #C50208;
-  display: grid;
-  gap: 50xp;
   grid-row: 2 / 4;
   grid-column: 1 / 2;
+  display: grid;
+  gap: 50px;
 }
 
 .sidebar .photo {
@@ -67,7 +67,6 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
-  
 }
 
 .photo, .side-content {
@@ -77,7 +76,7 @@
 
 .nav {
   background-color: #C50208;
- 
+  grid-column: 2 / 3;
 }
 
 .nav ul li {
@@ -94,7 +93,7 @@
 .article {
   background-color: #bccbde;
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
   
 }
